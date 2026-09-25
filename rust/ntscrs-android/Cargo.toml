@@ -1,0 +1,21 @@
+[package]
+name = "ntscrs-android"
+version = "0.9.6"
+edition = "2021"
+license = "MIT OR ISC OR Apache-2.0"
+description = "Android JNI bridge for ntsc-rs (vendored core). Keeps 100% of filter features."
+
+[lib]
+name = "ntscrs_android"
+crate-type = ["cdylib"]
+
+[dependencies]
+ntsc-rs = { path = "../vendor/ntscrs", features = ["rayon"] }
+jni = "0.21"
+serde_json = { version = "1", default-features = false, features = ["alloc"] }
+
+[build-dependencies]
+cc = "1"
+
+[profile.release]
+opt-level = 3

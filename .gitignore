@@ -1,0 +1,21 @@
+local.properties
+.gradle/
+build/
+app/build/
+rust/target/
+*.iml
+.idea/
+.DS_Store
+*.keystore
+*.jks
+.keystore-pass
+ntscrs-release.keystore
+*-signed.apk
+*-aligned.apk
+# local test media / logs (never commit)
+log/
+*.log
+/*.png
+/*.mp4
+1.txt
+2.txt
