@@ -15,7 +15,7 @@
 
 ## Download and Install
 
-The latest version of ntsc-rs can be downloaded from [the releases page](https://github.com/valadaptive/ntsc-rs/releases).
+The latest version of ntsc-rs can be downloaded from [the releases page](https://github.com/niyeee4/ntsc-rs-android/releases).
 
 After downloading, [read the documentation for how to run it](https://ntsc.rs/docs/standalone-installation/). In particular, ntsc-rs will not work properly on Linux unless you install all of the GStreamer packages listed in the documentation.
 
